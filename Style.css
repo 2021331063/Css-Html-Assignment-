@@ -391,11 +391,9 @@ a.green {
   flex: 1 1 25%;
   flex-direction: column;
   align-items: center;
-  background: #F0F1EC;
+  background: #f0f1ec;
   align-items: stretch;
-  
 }
-
 
 .img-box img {
   width: 100%;
@@ -403,16 +401,12 @@ a.green {
   object-fit: cover;
 }
 
-
 .text-box {
   padding: 2rem;
   text-align: left;
   display: flex;
   gap: 2rem;
-  
 }
-
-
 
 .text-box h2 {
   font-size: 2rem;
@@ -430,11 +424,11 @@ a.green {
 .text-box .btn {
   text-decoration: none;
   color: #06c167;
-  background: #F0EDE2;
+  background: #f0ede2;
   border-radius: 4px;
   font-size: 1rem;
-  padding: 0.6rem .5rem;
-  align-self: flex-start; 
+  padding: 0.6rem 0.5rem;
+  align-self: flex-start;
 }
 
 .text-box .btn:hover {
@@ -481,5 +475,47 @@ a.green {
 
   .photo4 {
     order: 3;
+  }
+}
+
+.image-background {
+  margin: 3rem 5%;
+  background: url(Resources/Background.png);
+  color: white;
+  height: 459px;
+}
+
+.image-overlap {
+  background-color: rgba(2, 2, 2, 0.59);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  height: 100%;
+  padding: 20%;
+}
+
+.image-overlap h1 {
+  font-size: clamp(2.5rem, 4vw, 3rem);
+  font-weight: 600;
+}
+
+.btnbackground {
+  background: #06c167;
+  color: white;
+  padding: 1.2rem 3rem;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+@media (max-width: 617px)
+{
+  .btnbackground{
+    width: 120%;
   }
 }
