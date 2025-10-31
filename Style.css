@@ -363,7 +363,7 @@ a.green {
 
 .foodsVariety {
   text-align: center;
-  padding: 3rem 1rem;
+  padding: 4% 5%;
 }
 
 .subheading {
@@ -375,15 +375,15 @@ a.green {
 .heading {
   font-size: 2.5rem;
   font-weight: 600;
-  margin-bottom: 2rem;
 }
-
+.feature-grid {
+  padding: 3% 0;
+}
 .firstFour,
 .secondRow {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
   gap: 0;
   border: 1px solid #06c167;
 }
