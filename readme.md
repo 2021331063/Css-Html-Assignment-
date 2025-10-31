@@ -1,7 +1,7 @@
+# Assignment : 02
 
+### Name : Nehal Hasnain Alve
 
-
-# Assignment :  02
-### Name :  Nehal Hasnain Alve
 ### Email: nehalhasnain452@gmail.com
-[ Live url](https://2021331063.github.io/Css-Html-Assignment-/)
+
+[ Live url](https://css-html-assignment-2.netlify.app/)

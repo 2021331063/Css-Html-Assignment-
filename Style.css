@@ -603,8 +603,6 @@ a.green {
 }
 
 @media (max-width: 477px) {
-  .flex-control {
-  }
   .promo-content {
     text-align: center;
   }
@@ -680,7 +678,7 @@ a.green {
 .stars {
   color: #06c167;
   font-size: 1rem;
-  margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
 }
 
 .product-card h3 {
