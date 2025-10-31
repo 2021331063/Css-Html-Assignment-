@@ -18,9 +18,9 @@
 body {
   background: linear-gradient(
     #f3fcf7 0px,
-    /* green starts */ #f3fcf7 100vh,
-    /* green ends at 500px */ white 100vh,
-    /* white starts from 500px */ white 100%
+    #f3fcf7 100vh,
+    white 100vh,
+    white 100%
   );
 }
 
