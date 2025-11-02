@@ -118,6 +118,7 @@ a.green {
   text-align: center;
   position: relative;
   display: flex;
+  align-self: flex-start;
 }
 
 .chef-image img {
